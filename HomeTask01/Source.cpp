@@ -11,12 +11,12 @@ int main() {
 		nums[i] = pow(i + 1, 2);
 	}
 	for (auto i = nums.begin(); i != nums.end(); i++) {
-		cout << *i << " ";
+		cout << *i << ", ";
 	}
 	cout << endl;
 
 	for (int i = 0; i < nums.size(); i++) {
-		cout << nums[i] << " ";
+		cout << nums[i] << ", ";
 	}
 	cout << endl;
 }
